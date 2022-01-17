@@ -1,0 +1,22 @@
+{
+  "name": "setting-up-npm-lesson",
+  "version": "1.0.0",
+  "description": "setting up npm lesson",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunehenry/git-control-lesson.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "kunehenry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunehenry/git-control-lesson/issues"
+  },
+  "homepage": "https://github.com/kunehenry/git-control-lesson#readme"
+}
