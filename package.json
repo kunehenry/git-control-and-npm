@@ -4,7 +4,7 @@
   "description": "setting up npm lesson",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kunehenry/git-control-lesson/issues"
   },
-  "homepage": "https://github.com/kunehenry/git-control-lesson#readme"
+  "homepage": "https://github.com/kunehenry/git-control-lesson#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
